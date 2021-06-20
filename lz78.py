@@ -48,7 +48,7 @@ def parse(string):
     return dict
 
 
-def decompression(string):  # Your input string should be in format <'index', 'entity'>,... . Ex: <0,A><0,B><2,C>
+def decompression(string):  # Your input string should be in format <'index', 'entry'>,... . Ex: <0,A><0,B><2,C>
     error = False
     ans, entry = '', ''
     try:
